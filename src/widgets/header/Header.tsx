@@ -4,8 +4,8 @@ import s from './header.module.scss';
 const Header: React.FC = () => {
 
    const photos = [
-      'src/public/header-bck3.jpg',
-      '/header-bck2.jpg',
+      'public/images/header-bck3.jpg',
+      'public/images/header-bck2.jpg',
    ];
 
    return (
