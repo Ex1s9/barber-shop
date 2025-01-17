@@ -1,0 +1,20 @@
+.swiper {
+   width: 720px;
+   height: 100%;
+}
+
+.reviewsContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.main {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   margin: 0 auto;
+}
+

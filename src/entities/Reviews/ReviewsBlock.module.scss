@@ -1,0 +1,48 @@
+.block {
+   width: 350px ;
+   display: flex;
+   align-items: center;
+}
+
+.textContainer {
+   display: flex;
+   flex-direction: column;
+}
+
+.reviews {
+   border: 1px solid #e7eaf3;
+   color: #555;
+   text-align: left; 
+   width: 340px;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   box-sizing: border-box;
+   word-wrap: break-word; 
+   margin: 4px 0 0 0;
+   font-size: 14px;
+}
+
+.authorInfo{
+   display: flex;
+   align-items: center;
+   padding-top: 5px;
+   padding-left: 50px;
+}
+
+.author {
+   margin: 0;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.avatar {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   margin-right: 16px;
+   object-fit: cover;
+}

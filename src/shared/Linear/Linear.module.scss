@@ -1,0 +1,36 @@
+.closestShopContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   margin-top: 2rem;
+}
+
+.text {
+   font-size: 16px;
+   font-weight: 400;
+   color: #8c98a4; 
+   margin: 0;
+}
+
+.lineRight {
+   width: 100px; // Длина полосы
+   height: 1px; // Толщина полосы
+   background: linear-gradient(
+      to right,
+    rgba(0, 0, 0, 0) 0%, // Прозрачность начинается
+    #8c98a4 100%,            // Центр полностью черный
+   );
+   opacity: 1;
+}
+
+.lineLeft {
+   width: 100px; // Длина полосы
+   height: 1px; // Толщина полосы
+   background: linear-gradient(
+      to left,
+    rgba(0, 0, 0, 0) 0%, // Прозрачность начинается
+    #8c98a4 100%,            // Центр полностью черный
+   );
+   opacity: 1;
+}

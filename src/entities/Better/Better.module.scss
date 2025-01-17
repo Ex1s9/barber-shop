@@ -1,0 +1,23 @@
+.block {
+   padding-top: 8rem;
+   padding-bottom: 8rem;
+   margin: 0 auto;
+}
+
+.text {
+   text-align: center;
+   margin: 0 auto;
+   width: 960px;
+   & h1 {
+      font-size: 3.1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+   }
+}
+
+.text1 {
+   margin-bottom: 1rem;
+   color: #77838f;
+   font-size: 1.25rem;
+   font-weight: 300;
+}

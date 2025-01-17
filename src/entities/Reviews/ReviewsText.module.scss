@@ -1,0 +1,66 @@
+.block {
+
+   & h2 {
+      font-weight: bold;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      max-width: 400px;
+      margin: 0 auto;
+   }
+
+   & .ratingContainer {
+      display: flex;
+      align-items: center;
+      gap: 10px; // Расстояние между звездами и текстом
+      margin-top: 10px; // Отступ сверху для звезд
+
+      & ul {
+         display: flex;
+         padding: 0;
+         margin: 0;
+      }
+
+      & ul li {
+         line-height: 1;
+         list-style: none;
+         color: #FFC108;
+         display: flex;
+         gap: 4px;
+
+         & span {
+            font-size: 1.2rem; // Увеличение размера звезд
+         }
+      }
+
+      & span.reviewInfo {
+         font-size: 1rem;
+         color: #8c98a4;
+         display: flex;
+         align-items: center;
+      }
+   }
+}
+
+
+
+@media (max-width: 768px) {
+   .block {
+      padding: 0 10px;
+   }
+
+   .container {
+      padding: 0 10px;
+   }
+
+   .ratingContainer {
+      margin-top: 5px;
+      
+      & ul li span {
+         font-size: 1.2rem;
+      }
+
+      & span {
+         font-size: 1rem;
+      }
+   }
+}

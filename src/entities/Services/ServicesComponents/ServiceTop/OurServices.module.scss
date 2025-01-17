@@ -1,0 +1,28 @@
+.ourServices{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7rem;
+
+   & h2 {
+      color: #1E2022;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      width: 50%;
+
+      &::before,
+      &::after {
+         content: '';
+         flex: 1;
+         height: 1px;
+         background: #000000;
+         margin: 0 10px;
+         border-radius: 2.5px;
+         background: linear-gradient(to right, transparent, #000000, transparent);
+      }
+   }
+}

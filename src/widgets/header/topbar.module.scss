@@ -1,0 +1,51 @@
+.header {
+   padding-top: 0.25rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(118, 119, 115, 0);
+   margin: 0 auto;
+   width: 100%;
+   z-index: 10;
+   gap: 3rem;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -100%);
+   animation: slideDown 0.7s ease-out forwards;
+   & h2 {
+      color: #FFFFFF;
+      font-size: 1.5rem;
+   }
+}
+
+@keyframes slideDown {
+   from {
+      transform: translate(-50%, -100%);
+   }
+   to {
+      transform: translate(-50%, 0);
+   }
+}
+
+.navigator {
+   color: #FFFFFF;
+   display: flex;
+   margin: 0;
+   gap: 2rem;
+   cursor: pointer;
+}
+
+.button {
+   background-color: transparent;
+   border: 2px solid #000000; // Замените #FF5733 на нужный цвет
+   color: #FFFFFF;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+
+   &:hover {
+      background-color: #000000;
+      color: #FFFFFF;
+   }
+}

@@ -1,0 +1,34 @@
+.container {
+   display: flex;
+   flex-direction: row; /* Горизонтальное выравнивание */
+   align-items: flex-start; /* Выравнивание по верхнему краю */
+   gap: 1rem; /* Расстояние между текстом и картой */
+   padding-top: 2rem;
+}
+
+.TextBlock {
+   width: 40%;
+   & h3 {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.9rem;
+   }
+}
+
+.mtext {
+   color: #77838f;
+   margin-bottom: 2rem;
+}
+
+.icon {
+   font-size: 18px;
+   color: red;
+}
+
+.list {
+   list-style: none;
+   display: flex;
+   padding: 0;
+   gap: 1.5rem;
+   margin-top: 2rem;
+}

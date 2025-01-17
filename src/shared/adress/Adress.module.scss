@@ -1,0 +1,16 @@
+.icon {
+   color: red;
+   font-size: 30px;
+}
+
+.block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   & h5 {
+      color: #461E0D;
+      font-weight: bold;
+      font-size: 1.5rem;
+   }
+}

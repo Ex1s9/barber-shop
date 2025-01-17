@@ -1,0 +1,53 @@
+.gallery {
+   display: flex;
+}
+
+.item {
+   position: relative;
+   width: 50%;
+   height: 100vh;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   border-right: 0.1px solid black;
+   &:last-child {
+      border-right: none;
+   }
+}
+
+.text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   text-align: center;
+   & h1 {
+      font-size: 3.1rem;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-weight: 700;
+      opacity: 0;
+      animation: slideUp 1s forwards;
+      animation-delay: 0.7s;
+   }
+
+   & p {
+      margin-top: -1.2rem;
+      font-weight: 300;
+      font-size: 1.25rem;
+      opacity: 0;
+      animation: slideUp 0.8s forwards;
+      animation-delay: 1.2s;
+   }
+}
+
+@keyframes slideUp {
+   from {
+      opacity: 0;
+      transform: translateY(50%);
+   }
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
