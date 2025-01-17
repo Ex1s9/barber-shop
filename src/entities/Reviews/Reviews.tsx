@@ -9,32 +9,32 @@ const reviewsData = [
    {
       title: 'Очень понравилось, Всё чётко, рекомендую.',
       author: 'Ex1s9',
-      avatar: 'src/widgets/header/photo/header-bck2.jpg',
+      avatar: '/images/header-bck2.jpg',
    },
    {
       title: 'Отличный сервис и профессионализм.',
       author: 'User123',
-      avatar: 'src/widgets/header/photo/header-bck2.jpg',
+      avatar: '/images/header-bck2.jpg',
    },
    {
       title: 'Очень вежливый персонал, отзывчивый и коммуникабельный. Веселые ребята, шикарная атмосфера.',
       author: 'Ex1s92',
-      avatar: 'src/widgets/header/photo/header-bck2.jpg',
+      avatar: '/images/header-bck2.jpg',
    },
    {
       title: 'Отличный барбершоп! Крутая атмосфера и профи мастера!',
       author: 'User1',
-      avatar: 'src/widgets/header/photo/header-bck2.jpg',
+      avatar: '/images/header-bck2.jpg',
    },
    {
       title: 'Великолепное место, где из ваших волос сделают конфетку.Спасибо большое за качественную работу, отличное настроение и вкусный кофе!',
       author: 'User12',
-      avatar: 'src/widgets/header/photo/header-bck2.jpg',
+      avatar: '/images/header-bck2.jpg',
    },
    {
       title: 'Отличная стрижка, превосходный мастер Иван сделал все в лучшем виде! Если стричься - то только здесь! Всем советую!',
       author: 'Ex1s93',
-      avatar: 'src/widgets/header/photo/header-bck2.jpg',
+      avatar: '/images/header-bck2.jpg',
    }
 ];
 
