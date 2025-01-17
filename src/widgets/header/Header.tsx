@@ -5,7 +5,7 @@ const Header: React.FC = () => {
 
    const photos = [
       'src/public/header-bck3.jpg',
-      'src/public/header-bck2.jpg',
+      '/header-bck2.jpg',
    ];
 
    return (
