@@ -4,14 +4,14 @@ import s from './header.module.scss';
 const Header: React.FC = () => {
 
    const photos = [
-      'public/images/header-bck3.jpg',
-      'public/images/header-bck2.jpg',
+      '/images/header-bck3.jpg',
+      '/images/header-bck2.jpg',
    ];
 
    return (
       <div className={s.gallery}>
          {photos.map((photo, index) => (
-            <div key={index} className={s.item}>
+            <div className={s.item}>
                <img src={photo} alt={`Photo ${index + 1}`} />
             </div>
          ))}
