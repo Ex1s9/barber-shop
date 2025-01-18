@@ -1,7 +1,7 @@
-import Linear from "../../shared/Linear/Linear.tsx";
-import Adress from "../../shared/adress/Adress.tsx";
+import Adress from "./Adress/Adress.tsx";
 import s from './Better.module.scss';
 import BetterSchedule from "./BetterSchedule.tsx";
+import Linear from "./Linear/Linear.tsx";
 
 export const Better = () => {
    return (

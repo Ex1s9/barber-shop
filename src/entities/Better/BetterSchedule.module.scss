@@ -32,3 +32,13 @@
    gap: 1.5rem;
    margin-top: 2rem;
 }
+
+@media (max-width: 768px) {
+   .container {
+      flex-direction: column;
+   }
+
+   .TextBlock {
+      width: 100%;
+   }
+}

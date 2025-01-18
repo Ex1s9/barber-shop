@@ -4,13 +4,32 @@
 
 .item {
    position: relative;
-   width: 50%;
+   width: 100%;
    height: 100vh;
    overflow: hidden;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    border-right: 0.1px solid black;
    &:last-child {
       border-right: none;
+   }
+   
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+}
+
+@media (max-width: 768px) {
+   .gallery {
+      height: 100vh;
+   }
+   .item {
+      width: 100%;
+      height: 100vh;
+   }
+   .item:not(:first-child) {
+      display: none;
    }
 }
 

@@ -21,3 +21,21 @@
    font-size: 1.25rem;
    font-weight: 300;
 }
+
+@media (max-width: 768px) {
+   .block {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+   }
+
+   .text {
+      width: 100%;
+      & h1 {
+         font-size: 2rem;
+      }
+   }
+
+   .text1 {
+      font-size: 1rem;
+   }
+}

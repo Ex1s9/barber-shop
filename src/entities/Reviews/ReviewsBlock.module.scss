@@ -46,3 +46,18 @@
    margin-right: 16px;
    object-fit: cover;
 }
+
+@media (max-width: 768px) {
+   .block {
+      width: 540px;
+   }
+   .reviews {
+      width: 530px;
+      height: 200px;
+      font-size: 16px;
+      text-align: center;
+   }
+   .authorInfo {
+      padding-left: 0;
+   }
+}

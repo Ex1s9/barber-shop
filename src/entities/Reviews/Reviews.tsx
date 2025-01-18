@@ -41,7 +41,6 @@ const reviewsData = [
 const Reviews: React.FC = () => {
    return (
       <main id='review' className={s.main}>
-         <div className={s.reviewsContainer}>
             <ReviewsText />
             <Swiper
                slidesPerView={2}
@@ -55,6 +54,16 @@ const Reviews: React.FC = () => {
                allowTouchMove={false}
                modules={[Autoplay]}
                className={s.swiper}
+               breakpoints={{
+                  0: {
+                     slidesPerView: 1,
+                     slidesPerGroup: 1,
+                  },
+                  768: {
+                     slidesPerView: 1,
+                     slidesPerGroup: 1,
+                  }
+               }}
             >
                {reviewsData.map((review, index) => (
                   <SwiperSlide key={index} className={s.slide}>
@@ -66,7 +75,6 @@ const Reviews: React.FC = () => {
                   </SwiperSlide>
                ))}
             </Swiper>
-         </div>
       </main>
    )
 }

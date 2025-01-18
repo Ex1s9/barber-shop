@@ -1,8 +1,8 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaClock } from "react-icons/fa6";
 import { TextSchedule, TextTime } from "../../shared/text/Txt";
-import Maps from "../../widgets/maps/maps";
 import s from './BetterSchedule.module.scss';
+import Maps from "./maps/maps";
 
 const BetterSchedule: React.FC = () => {
    return (
