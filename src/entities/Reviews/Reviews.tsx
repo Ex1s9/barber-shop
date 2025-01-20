@@ -59,7 +59,7 @@ const Reviews: React.FC = () => {
                      slidesPerView: 1,
                      slidesPerGroup: 1,
                   },
-                  768: {
+                  769: {
                      slidesPerView: 2,
                      slidesPerGroup: 1,
                   }

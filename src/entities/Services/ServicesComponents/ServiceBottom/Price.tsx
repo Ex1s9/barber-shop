@@ -18,18 +18,18 @@ const services = [
 
 export const Price = () => {
    return (
-      <div className={s.price}>
-         <div className={s.price_title}>
+      <div className={s.priceBlock}>
+         <div className={s.price_item1}>
             <div className={s.nothing}></div>
-            <p>Барбер</p>
-            <p>Старший Барбер</p>
-            <p>ТОП-Барбер</p>
+               <p>Барбер</p>
+               <p>Старший Барбер</p>
+               <p>ТОП-Барбер</p>
          </div>
          {services.map((service, index) => (
             <div key={index} className={s.price_item}>
-               <p>{service.title}</p>
+               <p className={s.nothing}>{service.title}</p>
                {service.prices.map((price, idx) => (
-                  <p key={idx}>{price}</p>
+                  <p key={idx} className={s.price}>{price}</p>
                ))}
             </div>
          ))}

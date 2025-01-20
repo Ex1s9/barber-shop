@@ -11,3 +11,11 @@
       margin-right: auto;
    }
 }
+
+@media (max-width: 1200px) {
+   .block {
+      max-width: 1140px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
