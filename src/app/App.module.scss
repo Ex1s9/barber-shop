@@ -4,17 +4,17 @@
    margin-right: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
    .block {
-      max-width: 540px;
+      max-width: 730px;
       margin-left: auto;
       margin-right: auto;
    }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
    .block {
-      max-width: 1140px;
+      max-width: 540px;
       margin-left: auto;
       margin-right: auto;
    }

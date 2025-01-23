@@ -16,7 +16,7 @@ const TopBar: React.FC = () => {
             <Link 
                to="review" 
                smooth={true} 
-               duration={700}
+               duration={850}
                offset={-250}
             >
                Отзыв
@@ -24,7 +24,7 @@ const TopBar: React.FC = () => {
             <Link 
                to="catalog" 
                smooth={true} 
-               duration={500}
+               duration={900}
             >
                Каталог
             </Link>

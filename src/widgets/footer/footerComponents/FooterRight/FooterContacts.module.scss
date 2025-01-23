@@ -1,0 +1,28 @@
+.phone{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   color: #F8F8F8;
+   gap: 1rem;
+   font-size: 1.3rem;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.buttonBlock {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   margin-top: 1rem;
+}
+
+.button {
+   font-size: 1.3rem;
+   color: #F8F8F8;
+   background-color: transparent;
+   border: 1px solid #F8F8F8;
+   border-radius: 8px;
+   padding: 0.5rem 1rem;
+   margin-right: 1rem;
+}

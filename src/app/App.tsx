@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import { Services } from "../entities/Services/Services";
+import { Footer } from "../widgets/footer/Footer";
 import Header from "../widgets/header/Header";
 import TopBar from "../widgets/header/TopBar";
 import s from "./App.module.scss";
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         </Suspense>
         <Services />
       </div>
+      <Footer />
     </main>
   );
 };
