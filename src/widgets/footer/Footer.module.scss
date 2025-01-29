@@ -26,3 +26,37 @@
    padding-top: 1rem;
    padding-bottom: 10px;
 }
+
+@media (max-width: 1200px) {
+   .footer {
+      flex-direction: column;
+      padding: 1rem;
+   }
+   .footerContainer {
+      flex-direction: column;
+      gap: 1rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      width: 720px;
+   }
+   .footerBottom {
+      justify-content: center;
+   }
+}
+
+@media (max-width: 768px) {
+   .footer {
+      flex-direction: column;
+      padding: 1rem;
+   }
+   .footerContainer {
+      flex-direction: column;
+      gap: 1rem;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      width: 540px;
+   }
+   .footerBottom {
+      justify-content: center;
+   }
+}

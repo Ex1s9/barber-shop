@@ -2,3 +2,10 @@
    max-width: 1520px;
    padding-bottom: 8rem;
 }
+
+@media (max-width: 768px) {
+   .service {
+      width: 540px;
+   }
+
+}

@@ -49,7 +49,17 @@
    }
 }
 
+@media (max-width: 1200px) {
+   .priceBlock {
+      width: 715px;
+   }
+}
+
 @media (max-width: 768px) {
+   .priceBlock {
+      width: 540px;
+   }
+
    .test {
       p {
          flex-direction: column;
@@ -57,14 +67,3 @@
    }
 }
 
-@media (max-width: 1200px) {
-   .priceBlock {
-      width: 715px;
-   }
-   .price_item {
-      width: 680px;
-   }
-   .price_item1 {
-      width: 680px;
-   }
-}

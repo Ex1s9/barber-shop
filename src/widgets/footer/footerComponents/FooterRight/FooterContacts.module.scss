@@ -1,9 +1,15 @@
+.contacts {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
 .phone{
    display: flex;
    flex-direction: row;
    align-items: center;
    color: #F8F8F8;
-   gap: 1rem;
+   gap: 8px;
    font-size: 1.3rem;
    border: none;
    background-color: transparent;
@@ -13,16 +19,97 @@
 .buttonBlock {
    display: flex;
    flex-direction: row;
-   gap: 1rem;
    margin-top: 1rem;
+   & .button:first-child{
+      margin-right: 1rem;
+   }
+}
+
+.icon {
+   align-items: center;
+   margin-right: 8px;
 }
 
 .button {
-   font-size: 1.3rem;
+   display: flex;
+   align-items: center;
+   font-size: 1.5rem;
    color: #F8F8F8;
    background-color: transparent;
    border: 1px solid #F8F8F8;
    border-radius: 8px;
    padding: 0.5rem 1rem;
-   margin-right: 1rem;
+   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+   .contacts {
+      justify-content: center;
+      flex-direction: row;
+      gap: 0rem;
+   }
+
+   .buttonBlock {
+      margin-top: 0;
+      justify-content: space-between;
+      & .button:first-child{
+         margin-right: 1.2rem;
+      }
+   }
+
+   .phone {
+      font-size: 1.1rem;
+      margin-right: 1.2rem;
+      border: 1px solid #F8F8F8;
+      border-radius: 8px;
+      width: 235px;
+      justify-content: center;
+      gap: 5px;
+   }
+
+   .button {
+      width: 235px;
+      font-size: 1.3rem;
+      justify-content: center;
+   }
+
+   .icon {
+      margin-right: 4px;
+   }
+}
+
+@media (max-width: 768px) {
+   .contacts {
+      justify-content: center;
+      flex-direction: row;
+      gap: 0rem;
+   }
+
+   .buttonBlock {
+      margin-top: 0;
+      justify-content: space-between;
+      & .button:first-child{
+         margin-right: 0.4rem;
+      }
+   }
+
+   .phone {
+      font-size: 1rem;
+      margin-right: 0.4rem;
+      border: 1px solid #F8F8F8;
+      border-radius: 8px;
+      width: 175px; //для большего медиа запроса 235px
+      justify-content: center;
+      gap: 5px;
+   }
+
+   .button {
+      width: 175px; //для большего медиа запроса 235px
+      justify-content: center;
+      font-size: 1rem;
+   }
+
+   .icon {
+      margin-right: 4px;
+   }
 }
