@@ -47,7 +47,22 @@
    object-fit: cover;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) {
+   .block {
+      width: 350px;
+   }
+   .reviews {
+      width: 300px;
+      height: 150px;
+      font-size: 14px;
+      text-align: center;
+   }
+   .authorInfo {
+      padding-left: 0;
+   }
+}
+
+@media (min-width: 480px) {
    .block {
       width: 540px;
    }
@@ -60,4 +75,16 @@
    .authorInfo {
       padding-left: 0;
    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
 }

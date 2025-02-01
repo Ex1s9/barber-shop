@@ -16,9 +16,32 @@
    height: auto;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) {
+   .text {
+      font-size: 0.7rem;
+   }
+
+   .logo {
+      max-width: 80px;
+      height: auto;
+   }
+}
+
+@media (min-width: 480px) {
    .leftBlock {
       width: 540px;
       align-items: flex-start;
    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
 }

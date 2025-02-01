@@ -49,13 +49,46 @@
    }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 320px) {
    .priceBlock {
-      width: 715px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+   }
+
+   .nothing {
+      font-size: 0.7rem;
+      width: 47%;
+      margin-bottom: 10px;
+   }
+
+   .price_item {
+      width: 280px;
+   }
+
+   .price_item1 {
+      width: 280px;
+      font-size: 0.7rem;
+      p {
+         width: 18%;
+      }
+   }
+
+   .price {
+      width: 18%;
+      font-size: 0.7rem;
+   }
+
+   .test {
+      p {
+         flex-direction: column;
+         text-align: center;
+      }
    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
    .priceBlock {
       width: 540px;
    }
@@ -67,3 +100,16 @@
    }
 }
 
+@media (min-width: 768px) {
+   .priceBlock {
+      width: 715px;
+   }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}

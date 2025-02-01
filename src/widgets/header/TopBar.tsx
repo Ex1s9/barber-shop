@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-scroll';
+import MenuLinks from './headerComponents/MenuLinks';
+import MobileMenu from './headerComponents/MobileMenu';
 import s from "./topbar.module.scss";
 
 const TopBar: React.FC = () => {
 
    const [isFixed, setIsFixed] = useState(false);
    const [isAnimating, setIsAnimating] = useState(false);
+   
 
    useEffect(() => {
       const handleScroll = () => {
@@ -37,34 +39,15 @@ const TopBar: React.FC = () => {
          className={`${s.header} ${isFixed ? s.fixed : ''} ${!isFixed && isAnimating ? s.removing: ''}`}
          onAnimationEnd={handleAnimationEnd}
       >
-         <h2>In Balance</h2>
+         <h2 className={s.logo}>In Balance</h2>
          <span className={s.navigator}>
-            <Link 
-               to="about" 
-               smooth={true} 
-               duration={700}
-            >
-               О нас
-            </Link>
-            <Link 
-               to="review" 
-               smooth={true} 
-               duration={850}
-               offset={-250}
-            >
-               Отзыв
-            </Link>
-            <Link 
-               to="catalog" 
-               smooth={true} 
-               duration={900}
-            >
-               Каталог
-            </Link>
+            <MenuLinks />
          </span>
+
          <button className={s.button}>
             Записаться онлайн
          </button>
+         <MobileMenu />
       </div>
    )
 }

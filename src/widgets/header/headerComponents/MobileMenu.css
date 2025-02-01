@@ -1,0 +1,83 @@
+.hamburger {
+   padding-right: 10px;
+   cursor: pointer;
+}
+
+.hamburger input {
+   display: none;
+}
+
+.hamburger svg {
+   height: 3em;
+   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+   fill: none;
+   stroke: white;
+   stroke-linecap: round;
+   stroke-linejoin: round;
+   stroke-width: 3;
+   transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+   stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+   transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+   stroke-dasharray: 20 300;
+   stroke-dashoffset: -32.42;
+}
+
+.mobile-menu {
+   position: relative;
+}
+
+.menu-list {
+   transform: translateX(-50%) scaleY(0);
+   transform-origin: top;
+   transition: transform 0.5s ease-out;
+
+   position: fixed;
+   top: 50px;
+   left: 50%;
+   margin: 20px 0;
+   max-width: 300px;
+   width: 100%;
+   text-align: center;
+   background-color: #f1f1f1;
+   color: transparent;
+}
+
+.menu-list.show {
+   display: block;
+   line-height: 1.2;
+   transform: translateX(-50%) scaleY(1);
+   color: currentColor;
+}
+
+.menu-content {
+   opacity: 0;
+   transition: opacity 0.5s ease-out 0.1s;
+}
+
+.menu-list.show .menu-content {
+   opacity: 1;
+}
+
+.menu-list a {
+   padding: 12px 16px;
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+   display: block; /* Обеспечиваем, чтобы каждый элемент был на новой строке */
+}
+
+.menu-list a:hover {
+   background-color: #f1f1f1;
+}

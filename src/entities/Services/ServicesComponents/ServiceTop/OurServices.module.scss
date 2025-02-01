@@ -27,11 +27,32 @@
    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) {
+   .ourServices {
+      h2 {
+         font-size: 1.2rem;
+         width: 80%;
+      }
+   }
+}
+
+@media (min-width: 480px) {
    .ourServices {
       h2 {
          font-size: 1.5rem;
          width: 80%;
       }
    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+   
 }

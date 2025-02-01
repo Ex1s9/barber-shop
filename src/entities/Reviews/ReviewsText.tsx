@@ -6,7 +6,7 @@ const ReviewsText: React.FC = () => {
 
    return (
       <div className={s.block}>
-         <h2>Что говорят наши клиенты</h2>
+         <h2>Что говорят <br/> наши клиенты</h2>
          <div className={s.ratingContainer}>
             <ul>
                <li>

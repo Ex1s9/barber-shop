@@ -9,18 +9,18 @@
    }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 320px) {
    .map {
-      height: 400px;
-      padding-top: 1.5rem;
+      height: 340px;
+      padding-top: 1rem;
 
       iframe {
-         width: 730px;
+         width: 300px;
       }
    }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 480px) {
    .map {
       height: 300px;
       padding-top: 1rem;
@@ -31,3 +31,21 @@
    }
 }
 
+@media (min-width: 768px) {
+   .map {
+      height: 400px;
+      padding-top: 1.5rem;
+
+      iframe {
+         width: 730px;
+      }
+   }
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 1280px) {
+
+}
