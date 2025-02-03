@@ -1,8 +1,9 @@
 import { Link } from 'react-scroll';
+import s from './MenuLinks.module.scss';
 
 const MenuLinks = () => {
    return (
-      <div>
+      <div className={s.links}>
          <Link to="about" smooth={true} duration={700}>
             О нас
          </Link>

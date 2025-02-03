@@ -24,3 +24,13 @@
       }
    }
 }
+
+@media (min-width: 1024px) {
+   .block {
+      display: flex;
+      justify-content: center;
+      h5 {
+         font-size: 1.8rem;
+      }
+   }
+}

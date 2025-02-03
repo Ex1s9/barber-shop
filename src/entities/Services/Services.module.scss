@@ -16,11 +16,15 @@
 }
 
 @media (min-width: 768px) {
-
+   .service {
+      width: 720px;
+   }
 }
 
 @media (min-width: 1024px) {
-   
+   .service {
+      width: 960px;
+   }
 }
 @media (min-width: 1280px) {
    

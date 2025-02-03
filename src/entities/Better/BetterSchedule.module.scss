@@ -63,7 +63,12 @@
 }
 
 @media (min-width: 1024px) {
-
+   .container {
+      flex-direction: row;
+   }
+   .TextBlock {
+      width: 50%;
+   }
 }
 
 @media (min-width: 1200px) {

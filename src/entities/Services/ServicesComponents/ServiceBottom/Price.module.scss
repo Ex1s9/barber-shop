@@ -102,12 +102,50 @@
 
 @media (min-width: 768px) {
    .priceBlock {
-      width: 715px;
+      width: 720px;
+   }
+
+   .price {
+      font-size: 1rem;
+   }
+
+   .price_item {
+      width: 550px;
+   }
+
+   .price_item1 {
+      width: 550px;
+      font-size: 1rem;
+      p {
+         width: 18%;
+      }
+   }
+
+   .nothing {
+      width: 44%;
+      font-size: 1rem;
    }
 }
 
 @media (min-width: 1024px) {
+   .priceBlock {
+      width: 540px;
+   }
 
+   .price_item {
+      width: 420px;
+   }
+
+   .price_item1 {
+      width: 420px;
+      p {
+         width: 18%;
+      }
+   }
+
+   .nothing {
+      width: 44%;
+   }
 }
 
 @media (min-width: 1280px) {

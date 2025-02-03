@@ -37,13 +37,20 @@
       padding-top: 1.5rem;
 
       iframe {
-         width: 730px;
+         width: 720px;
       }
    }
 }
 
 @media (min-width: 1024px) {
+   .map {
+      height: 340px;
+      padding-top: 2rem;
 
+      iframe {
+         width: 490px;
+      }
+   }
 }
 
 @media (min-width: 1280px) {

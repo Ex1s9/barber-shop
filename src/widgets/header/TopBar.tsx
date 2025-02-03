@@ -4,10 +4,8 @@ import MobileMenu from './headerComponents/MobileMenu';
 import s from "./topbar.module.scss";
 
 const TopBar: React.FC = () => {
-
    const [isFixed, setIsFixed] = useState(false);
    const [isAnimating, setIsAnimating] = useState(false);
-   
 
    useEffect(() => {
       const handleScroll = () => {
@@ -35,19 +33,23 @@ const TopBar: React.FC = () => {
    };
 
    return (
-      <div 
-         className={`${s.header} ${isFixed ? s.fixed : ''} ${!isFixed && isAnimating ? s.removing: ''}`}
+      <div
+         className={`${s.header} ${isFixed ? s.fixed : ''} ${!isFixed && isAnimating ? s.removing : ''}`}
          onAnimationEnd={handleAnimationEnd}
       >
-         <h2 className={s.logo}>In Balance</h2>
-         <span className={s.navigator}>
-            <MenuLinks />
-         </span>
+         <div className={s.logoWrapper}>
+            <h2 className={s.logo}>In Balance</h2>
+         </div>
+         <div className={s.navWrapper}>
+            <span className={`${s.navigator} ${(isFixed ? s.active : s.activeNon)}`}>
+               <MenuLinks />
+            </span>
+         </div>
+         
 
-         <button className={s.button}>
-            Записаться онлайн
-         </button>
-         <MobileMenu />
+         <div className={s.menuWrapper}>
+            <MobileMenu />
+         </div>
       </div>
    )
 }

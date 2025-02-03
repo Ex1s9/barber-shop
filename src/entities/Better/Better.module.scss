@@ -65,7 +65,18 @@
 }
 
 @media (min-width: 1024px) {
-
+   .block {
+      width: 960px;
+   }
+   .text {
+      width: 960px;
+      & h1 {
+         font-size: 2.5rem;
+      }
+   }
+   .text1 {
+      font-size: 1.25rem;
+   }
 }
 
 @media (min-width: 1280px) {

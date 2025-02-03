@@ -46,7 +46,12 @@
 }
 
 @media (min-width: 768px) {
-
+   .ourServices {
+      h2 {
+         font-size: 2rem;
+         width: 80%;
+      }
+   }
 }
 
 @media (min-width: 1024px) {

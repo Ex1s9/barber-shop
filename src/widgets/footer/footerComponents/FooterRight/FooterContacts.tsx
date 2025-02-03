@@ -9,14 +9,22 @@ export const FooterContacts = () => {
             <p>+7 (978) 346-05-26</p>
          </button>
          <div className={s.buttonBlock}>
-            <button className={s.button}>
+            <a
+               href="https://t.me/+79783460526"
+               target='_blank'
+               rel="noopener noreferrer" 
+               className={s.button}>
                <FaTelegramPlane className={s.icon}/>
                Telegram
-            </button>
-            <button className={s.button}>
+            </a>
+            <a 
+               href='https://api.whatsapp.com/send/?phone=79783460526&text&type=phone_number&app_absent=0'
+               target='_blank' 
+               rel='noopener noreferrer' 
+               className={s.button}>
                <FaWhatsapp className={s.icon}/>
                WhatsApp
-            </button>
+            </a>
          </div>
       </div>
    )

@@ -43,3 +43,15 @@
       width: 50px; // Длина полосы
    }
 }
+
+@media (min-width: 1024px) {
+   .lineRight {
+      width: 100px; // Длина полосы
+   }
+   .lineLeft {
+      width: 100px; // Длина полосы
+   }
+   .text {
+      font-size: 20px;
+   }
+}

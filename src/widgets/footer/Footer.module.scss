@@ -79,7 +79,12 @@
 }
 
 @media (min-width: 1024px) {
-   
+   .footerContainer {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 10rem;
+      width: 960px;
+   }
 }
 
 @media (min-width: 1280px) {
