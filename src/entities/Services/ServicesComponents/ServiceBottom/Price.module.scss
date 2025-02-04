@@ -90,7 +90,7 @@
 
 @media (min-width: 480px) {
    .priceBlock {
-      width: 540px;
+      width: 460px;
    }
 
    .test {
@@ -149,5 +149,11 @@
 }
 
 @media (min-width: 1280px) {
+   .price_item {
+      width: 550px;
+   }
 
+   .price_item1 {
+      width: 550px;
+   }
 }

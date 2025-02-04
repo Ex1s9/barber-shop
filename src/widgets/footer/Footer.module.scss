@@ -54,7 +54,7 @@
       gap: 1rem;
       padding-top: 2rem;
       padding-bottom: 1rem;
-      width: 540px;
+      width: 450px;
    }
    .footerBottom {
       justify-content: center;
@@ -88,5 +88,7 @@
 }
 
 @media (min-width: 1280px) {
-
+   .footerContainer {
+      width: 1140px;
+   }
 }

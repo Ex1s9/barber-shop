@@ -80,5 +80,16 @@
 }
 
 @media (min-width: 1280px) {
-
+   .block {
+      width: 1140px;
+   }
+   .text {
+      width: 1140px;
+      & h1 {
+         font-size: 3rem;
+      }
+   }
+   .text1 {
+      font-size: 1.5rem;
+   }
 }

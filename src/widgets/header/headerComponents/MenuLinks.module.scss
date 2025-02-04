@@ -3,6 +3,18 @@
    gap: 2rem;
 }
 
+@media (min-width: 320px) {
+   .links {
+      display: block;
+   }
+}
+
+@media (min-width: 768px) {
+   .links {
+      display: flex;
+   }
+}
+
 @media (min-width: 1024px) {
    .links {
       gap: 3rem;

@@ -82,7 +82,6 @@
 
 @media (min-width: 1024px) {
    .block {
-      padding: 0 40px;
       width: 300px;
       & h2 {
          font-size: 2rem;
@@ -91,5 +90,10 @@
 }
 
 @media (min-width: 1280px) {
-
+   .block {
+      width: 400px;
+      & h2 {
+         font-size: 2.5rem;
+      }
+   }
 }

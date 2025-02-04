@@ -67,7 +67,7 @@
       width: 540px;
    }
    .reviews {
-      width: 530px;
+      width: 460px;
       height: 200px;
       font-size: 16px;
       text-align: center;
@@ -100,5 +100,8 @@
 }
 
 @media (min-width: 1280px) {
-
+   .reviews {
+      width: 340px;
+      height: 200px;
+   }
 }

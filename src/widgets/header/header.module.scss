@@ -128,5 +128,13 @@
 }
 
 @media (min-width: 1280px) {
-
+   .text {
+      & h1 {
+         font-size: 3.1rem;
+         width: 720px;
+      }
+      & p {
+         font-size: 1.5rem;
+      }
+   }
 }

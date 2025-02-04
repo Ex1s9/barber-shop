@@ -75,13 +75,13 @@
       margin-right: 0.4rem;
       border: 1px solid #F8F8F8;
       border-radius: 8px;
-      width: 175px; //для большего медиа запроса 235px
+      width: 175px; 
       justify-content: center;
       gap: 5px;
    }
 
    .button {
-      width: 175px; //для большего медиа запроса 235px
+      width: 95px;
       justify-content: center;
       font-size: 1rem;
    }
@@ -153,5 +153,15 @@
 }
 
 @media (min-width: 1280px) {
-   
+   .contacts {
+      width: 400px;
+   }
+
+   .button {
+      width: 160px;
+   }
+
+   .phone {
+      width: 220px;
+   }
 }

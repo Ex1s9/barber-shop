@@ -14,8 +14,8 @@
 }
 
 .lineRight {
-   width: 100px; // Длина полосы
-   height: 1px; // Толщина полосы
+   width: 100px; 
+   height: 1px; 
    background: linear-gradient(
       to right,
     rgba(0, 0, 0, 0) 0%, // Прозрачность начинается
@@ -37,19 +37,31 @@
 
 @media (min-width: 320px) {
    .lineRight {
-      width: 50px; // Длина полосы
+      width: 50px; 
    }
    .lineLeft {
-      width: 50px; // Длина полосы
+      width: 50px; 
    }
 }
 
 @media (min-width: 1024px) {
    .lineRight {
-      width: 100px; // Длина полосы
+      width: 100px; 
    }
    .lineLeft {
-      width: 100px; // Длина полосы
+      width: 100px;
+   }
+   .text {
+      font-size: 20px;
+   }
+}
+
+@media (min-width: 1280px) {
+   .lineRight {
+      width: 150px; 
+   }
+   .lineLeft {
+      width: 150px; 
    }
    .text {
       font-size: 20px;
