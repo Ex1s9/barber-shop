@@ -4,7 +4,7 @@ import { FooterContacts } from './footerComponents/FooterRight/FooterContacts'
 
 export const Footer = () => {
    return (
-      <div className={s.footer}>
+      <div id='contact' className={s.footer}>
          <div className={s.footerContainer}>
             <FooterLeft />
             <FooterContacts />
